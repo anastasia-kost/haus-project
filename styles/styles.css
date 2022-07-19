@@ -8,9 +8,11 @@ html,
 body {
     margin: 0;
     padding: 0;
+ 
+ 
 }
 
-p {
+p, a {
     font-family: 'Roboto', sans-serif;
 }
 
@@ -44,7 +46,41 @@ h2, h2, h3 {
 }
 
 .header {
+
+}
+
+.main-block {
+    background-color: #996B60;
+    background-image: url("/images/main-image.jpeg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 50vw 100%;
     min-height: 100vh;
     width: 100%;
 
+}
+
+/* NAVBAR */
+
+.navbar {
+
+padding: 38px 0;
+}
+
+.menu-items {
+display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+ 
+}
+
+.nav-link {
+text-decoration: none;
+color: #fff;
+font-size: 12px;
+line-height: 18px;
+text-transform: uppercase;
+letter-spacing: 1px;
 }
