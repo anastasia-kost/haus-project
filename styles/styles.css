@@ -99,7 +99,7 @@ h3 {
 
 .main-block {
   background-color: #996b60;
-  background-image: url("/images/main-image.jpeg");
+  background-image: url("../images/main-image.jpeg");
   background-repeat: no-repeat;
   background-position: left;
   background-size: 50vw 100%;
