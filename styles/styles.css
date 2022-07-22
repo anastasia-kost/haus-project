@@ -60,6 +60,10 @@ h3 {
   color: #000;
 }
 
+.subtitle-white {
+  color: #fff;
+}
+
 .button {
   display: inline-block;
   background-color: transparent;
@@ -72,6 +76,7 @@ h3 {
   text-transform: uppercase;
   max-width: 180px;
   transition: linear 0.5s;
+  letter-spacing: 1px;
 }
 
 .button:hover {
@@ -243,4 +248,39 @@ h3 {
 
 .text-col-2 {
   max-width: 55%;
+}
+
+.section {
+  background-image: url("/images/bg-img.jpeg");
+  background-repeat: no-repeat;
+  max-height: 100vh;
+  background-size: cover;
+}
+
+.section-container {
+  max-width: 50%;
+  text-align: left;
+  padding: 60px 0;
+}
+
+.section-block {
+  background-color: #000;
+  text-align: center;
+  padding: 30px;
+  margin: 20px 0 5px;
+}
+
+.section-container .button-white {
+  background-color: #fff;
+  color: #000;
+}
+
+.social-links {
+  margin-top: 0;
+}
+
+.social-links a {
+  color: #fff;
+  margin-right: 20px;
+  letter-spacing: 1px;
 }
