@@ -13,12 +13,12 @@ body {
 p,
 a {
   font-family: "Roboto", sans-serif;
-  cursor: pointer;
 }
 
 a {
   text-decoration: none;
   color: inherit;
+  cursor: pointer;
 }
 
 h1,
