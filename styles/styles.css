@@ -251,7 +251,7 @@ h3 {
 }
 
 .section {
-  background-image: url("/images/bg-img.jpeg");
+  background-image: url("../images/bg-img.jpeg");
   background-repeat: no-repeat;
   max-height: 100vh;
   background-size: cover;
@@ -359,4 +359,23 @@ input:focus {
 
 .input-button {
   border: none;
+}
+
+/* COPYRIGHT */
+
+.copyright-section {
+  justify-content: start;
+}
+
+.copyright-section p {
+  margin-right: 30px;
+}
+
+.copyright-section .nav-link {
+  text-transform: capitalize;
+  opacity: 60%;
+  margin: 10px 30px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: normal;
 }
